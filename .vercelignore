@@ -1,0 +1,20 @@
+# Everything the running app does not need. data/kb and docs/eval.json are NOT here: the
+# assistant reads the knowledge base at runtime and /eval reads the measured numbers.
+.venv/
+__pycache__/
+*.pyc
+tests/
+eval/
+scripts/
+Crop_recommendation.csv
+Crop_recommendation_9_features.csv
+*.db
+.claude/
+.claude-launch.sh
+docs/AUDIT.md
+docs/DECISIONS.md
+docs/INTERVIEW_NOTES.md
+docs/RESUME_BULLETS.md
+
+# React source and its tooling are not needed at runtime (the built app is in static/app/)
+web/

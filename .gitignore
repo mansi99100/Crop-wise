@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.db
+.DS_Store
+docs/screenshots/*.tmp
+
+# superseded by scripts/train.py and models/*.joblib
+*.pkl
+.vercel
+.env*
+
+# React app dependencies
+web/node_modules/
